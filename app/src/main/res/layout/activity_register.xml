@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_bg"
+    android:orientation="vertical"
+    tools:context=".LoginActivity"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logo" />
+
+        <TextView
+            android:id="@+id/txtDN"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Đăng Ký"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="449dp">
+
+            <LinearLayout
+                android:layout_width="334dp"
+                android:layout_height="425dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/edtUsername"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/input_bg"
+                    android:drawableLeft="@drawable/baseline_person_24"
+                    android:ems="10"
+                    android:hint="Username"
+                    android:inputType="textPersonName"
+                    android:minHeight="48dp"
+                    android:paddingLeft="10sp"
+                    android:textColor="#FFFFFF"
+                    android:textColorHint="#FFFFFF"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/edtTenR"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/input_bg"
+                    android:drawableLeft="@drawable/baseline_person_24"
+                    android:ems="10"
+                    android:hint="Họ Tên"
+                    android:inputType="textPersonName"
+                    android:minHeight="48dp"
+                    android:paddingLeft="10sp"
+                    android:textColor="#FFFFFF"
+                    android:textColorHint="#FFFFFF"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/edtSDThome"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/input_bg"
+                    android:drawableLeft="@drawable/baseline_person_24"
+                    android:ems="10"
+                    android:hint="Số điện thoại"
+                    android:inputType="number"
+                    android:minHeight="48dp"
+                    android:paddingLeft="10sp"
+                    android:textColor="#FFFFFF"
+                    android:textColorHint="#FFFFFF"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/inputMail"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/input_bg"
+                    android:drawableLeft="@drawable/baseline_email"
+                    android:ems="10"
+                    android:hint="Email"
+                    android:inputType="textPersonName"
+                    android:minHeight="48dp"
+                    android:paddingLeft="10dp"
+                    android:textColor="#FBFBFB"
+                    android:textColorHighlight="#009688"
+                    android:textColorHint="#FFFFFF"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/edtMK"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/input_bg"
+                    android:drawableLeft="@drawable/baseline_security"
+                    android:ems="10"
+                    android:hint="Mật Khẩu"
+                    android:inputType="textPassword"
+                    android:minHeight="48dp"
+                    android:paddingLeft="10dp"
+                    android:textColor="#FBFBFB"
+                    android:textColorHint="#FFFFFF"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/edtPassword"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/input_bg"
+                    android:drawableLeft="@drawable/baseline_security"
+                    android:ems="10"
+                    android:hint="Nhập lại mật khẩu"
+                    android:inputType="textPassword"
+                    android:minHeight="48dp"
+                    android:paddingLeft="10dp"
+                    android:textColor="#FFFFFF"
+                    android:textColorHint="#FFFFFF"
+                    android:textSize="20sp" />
+
+                <CheckBox
+                    android:id="@+id/CSBMCheckbox"
+                    android:layout_width="285dp"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:minHeight="48dp"
+                    android:text="Chính sách bảo mật"
+                    android:textAlignment="viewStart"
+                    android:textColor="#100F0F"
+                    android:textSize="18sp" />
+
+                <Button
+                    android:id="@+id/btnDK"
+                    android:layout_width="189dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#E91E63"
+                    android:text="Đăng ký"
+                    android:textColor="#FFFFFF" />
+
+            </LinearLayout>
+        </TableLayout>
+    </LinearLayout>
+
+</LinearLayout>

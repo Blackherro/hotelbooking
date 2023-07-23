@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CallSupport">
+
+    <TextView
+        android:id="@+id/tvtongdaivien"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tổng đài viên"
+        android:textStyle="bold"
+        android:background="@color/maucuaminh"
+        android:textAlignment="center"
+        android:textSize="30sp" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="312dp"
+        android:layout_height="67dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="20dp"
+        app:cardCornerRadius="13dp"
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="13dp"
+            android:src="@drawable/hinhnhanvien"/>
+
+        <TextView
+            android:id="@+id/sdt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="20dp"
+            android:text="0868617736"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/call1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="260dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/hinhgoi" />
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="312dp"
+        android:layout_height="67dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="20dp"
+        app:cardCornerRadius="13dp"
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="13dp"
+            android:src="@drawable/hinhnhanvien"/>
+
+        <TextView
+            android:id="@+id/sdt2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="20dp"
+            android:text="0789353987"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/call2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="260dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/hinhgoi" />
+
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="312dp"
+        android:layout_height="67dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="20dp"
+        app:cardCornerRadius="13dp"
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="13dp"
+            android:src="@drawable/hinhnhanvien"/>
+
+        <TextView
+            android:id="@+id/sdt3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="20dp"
+            android:text="0931116847"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/call3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="260dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/hinhgoi" />
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>
